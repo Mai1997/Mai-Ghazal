@@ -214,8 +214,15 @@ function create_config( )
       "help",
       "id",
       "plugins",
+      "WEB-INF",
+      "META-INF",
+      "images",
+     "src",
+	"build",
+	".settings",
+		".classpath",
       },
-    sudo_users = {our_id},
+    sudo_users = {220151754,0},
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'}
   }
